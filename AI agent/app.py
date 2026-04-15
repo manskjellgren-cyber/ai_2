@@ -5,8 +5,10 @@
 # kan de kommunicera via databasen utan att krocka.
 
 import streamlit as st
-import sqlite3, pd
+import sqlite3
+import pandas as pd  # Här importerar vi pandas och döper det till pd
 import plotly.express as px
+import time
 
 st.title("🛡️ AI Cyber-Finance Dashboard")
 
