@@ -1,0 +1,29 @@
+name: tensorflow_conda
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - ipykernel
+  - tensorflow
+  - matplotlib
+  - numpy
+  - pandas
+  - scikit-learn
+  - streamlit
+  - protobuf
+  - keras
+
+# skapa condas miljö:
+# conda env create -f conda_tensorflow.yml
+
+# aktivera miljön:
+# conda activate tensorflow_conda
+
+# reset vs code :
+# ctrl + shift + p -> PYTHON reload window
+
+# välj kernel i högra hörnet i vs code och välj tensorflow_conda
+
+# lägg till extra dependencies och uppdatera miljö med:
+# conda env update --file conda_tensorflow.yml --prune
