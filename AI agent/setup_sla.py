@@ -1,5 +1,5 @@
 import chromadb
-
+# x
 def setup_chroma():
     client = chromadb.PersistentClient(path="./chroma_db")
     # Skapa eller hämta kollektion för SLA
