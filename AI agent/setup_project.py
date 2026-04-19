@@ -1,7 +1,7 @@
 import sqlite3
 import chromadb
 import os
-
+# test
 def setup():
     # 1. Rensa gamla databaser för att undvika krockar
     if os.path.exists("live_data.db"): os.remove("live_data.db")
